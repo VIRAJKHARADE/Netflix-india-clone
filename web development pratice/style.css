@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+body {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-image: url(assets/images/background\ image.jpg);
+  height: 90vh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1100px, 100vw);
+}
+
+.box {
+  height: 90vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.57;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+  height: 82px;
+
+}
+
+
+img {
+  width: 150px;
+  position: relative;
+  z-index: 10;
+}
+
+.button {
+  position: relative;
+  z-index: 10;
+}
+
+.box2 {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+  position: relative;
+  z-index: 10;
+}
+
+.box2> :nth-child(1) {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+}
+
+.box2> :nth-child(2) {
+  text-align: center;
+  font-size: x-large;
+  font-family: 'Poppins', sans-serif;
+}
+
+.box2> :nth-child(3) {
+  text-align: center;
+  font-size: 19px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.separate {
+  height: 5px;
+  background-color: gray;
+  opacity: 0.40;
+}
+
+
+.select {
+  padding: 8px 24px;
+  background-color: rgba(23, 23, 23, 0.5);
+  color: white;
+  font-weight: 500;
+
+  border-radius: 6px;
+  font-size: 15px;
+
+}
+
+
+.button1 {
+  padding: 7px 18px;
+  background-color: red;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.palceholder {
+  background-color: rgba(23, 23, 23, 0.5);
+  padding: 10px 25px;
+  border-radius: 6px;
+  color: white;
+  font-size: x-large;
+
+}
+
+.button2 {
+  font-size: x-large;
+  font-weight: 400;
+  padding: 10px 39px;
+  background-color: red;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.first{
+  height: 60vh;
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* @media screen and (max-width : 1300px){
+  .first{
+   flex-wrap: wrap;
+  }
+} */
+
+.image img{
+  width: 450px;
+  height: 300px;
+  position: relative;
+  z-index: 10;
+}
+
+.image video{
+  position: absolute;
+  height: 280px;
+  width: 350px;
+ left: 40px;
+
+}
+
+.image{
+  position: relative;
+}
+
+.first1{
+  color: white;
+  font-size:35px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+
+  
+}
+
+.first2{
+  color: white;
+  font-size: 24px;
+}
+
+.first3{
+  display: grid;
+  gap: 10px;
+}
+
+.video2{
+  height: 300px;
+  width: 250px;
+  bottom: 70px;
+  position: absolute;
+  left: 30px;
+}
+
+
+.p{
+  display: flex;
+  height: 350px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.o{
+  position: absolute;
+  height: 100px;
+  width: 150px;
+}
+
+.video2{
+  bottom: 60px;
+  position: absolute;
+  width: 250px;
+
+}
+
+.img3{
+  width: 600px;
+  z-index: 10;
+}
+
+.frq{
+  text-align: center;
+  color: white;
+  padding: 34px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.feqbox{
+  color: white;
+  display: flex;
+  max-width: 85vw;
+  margin:  16px auto;
+  padding: 24px;
+  background-color: rgb(42, 41, 41);
+  justify-content: space-between;
+  font-size: x-large;
+  cursor:pointer;
+  transition: all 1s ease-out;
+}
+
+
+.upfoot{
+  color: white;
+  text-align: center;
+  margin: 45px auto;
+  font-weight:700;
+  font-size: 25px;
+}
+.upfoot2{
+  position: relative;
+  display:flex;
+ justify-content: center;
+ margin-bottom: 20px;
+ margin-top: 20px;
+}
+
+
+
+.feqbox:hover{
+  background-color: rgb(71, 68, 68);
+}
+
+.separate1{
+  margin: 20px;
+}
+
+.footerbox{
+  display:flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 60vw;
+  margin: 20px auto;
+  column-gap: 120px;
+}
+
+.q{
+  color: rgb(178, 169, 169);
+width: 50vw;
+margin: 2px 230px;
+margin-bottom: 30px;
+}
+
+footer a{
+  color:rgb(178, 169, 169);
+}
+footer{
+  margin-top: 60px;
+}
